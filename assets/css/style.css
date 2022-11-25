@@ -68,7 +68,7 @@ h1, h2 {
 #hero-image {
     height: 700px;
     width: 100%;
-    background: url(../images/people-nature.png) no-repeat center center;
+    background: url(../images/hero-image.jpg) no-repeat center center;
     overflow: hidden;
     position: relative;
     top: -40px;
