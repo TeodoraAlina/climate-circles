@@ -25,9 +25,6 @@ h1, h2 {
 
 #logo {
     float: left;
-    margin-left: 30px;
-    position: relative;
-    left: -45px;
 }  
 
 
@@ -96,4 +93,47 @@ h1, h2 {
     right: 240px;
 
     position: absolute;
+}
+
+/* bio */
+
+#bio {
+    height: 700px;
+}
+
+#bio h2{
+    width: 38%;
+    text-align: center;
+    line-height: 60px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding: 2em 2em 3em 25em;
+}
+
+#left-bio {
+    padding-top: 30;
+    width: 33%;
+    float: left;
+}
+
+#right-bio{
+    padding-top: 30;
+    width: 33%;
+    float: right;
+}
+
+hr {
+    border: 1px solid #569117;
+    width: 25%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 60px;
+}
+
+.left-bio-text {
+    width: 90%;
+    float: right;
+    line-height: 25px;
+    clear: both;
+    margin-bottom: 50px;
 }
