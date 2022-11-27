@@ -150,3 +150,57 @@ hr {
 }
 
 /* meet-up */
+
+#meet-up {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 100%;
+}
+
+#meet-up img {
+    width: 300px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 200px;
+    right: 100px;
+    overflow: hidden;
+}
+
+#meet-up-times h2 {
+    color: black;
+}
+
+#meet-up-reconnect {
+    position: absolute;
+    top: 50%;
+    left: 320px;
+    width: 200px;
+    line-height: 20px;
+    float: left;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+#meet-up-climate {
+    position: absolute;
+    top: 50%;
+    right: 45%;
+    width: 200px;
+    line-height: 20px;
+    float: left;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+#meet-up-forest {
+    position: absolute;
+    top: 50%;
+    right: 320px;
+    width: 200px;
+    line-height: 20px;
+    float: left;
+    line-height: 40px;
+    border-radius: 50%;
+}
