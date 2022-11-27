@@ -154,7 +154,7 @@ hr {
 #meet-up {
     position: relative;
     text-align: center;
-    color: black;
+    color: white;
     font-size: 100%;
 }
 
@@ -169,7 +169,7 @@ hr {
 }
 
 #meet-up-times h2 {
-    color: black;
+    color: white;
 }
 
 #meet-up-reconnect {
@@ -196,7 +196,7 @@ hr {
 
 #meet-up-forest {
     position: absolute;
-    top: 50%;
+    top: 53%;
     right: 320px;
     width: 200px;
     line-height: 20px;
