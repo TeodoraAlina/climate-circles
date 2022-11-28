@@ -162,7 +162,7 @@ hr {
     width: 300px;
     border-radius: 50%;
     position: relative;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-left: 200px;
     right: 100px;
     overflow: hidden;
@@ -203,4 +203,59 @@ hr {
     float: left;
     line-height: 40px;
     border-radius: 50%;
+}
+
+/* footer */
+
+footer {
+    margin-top: 100px;
+    font-size: 20px;
+    color: #024500;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+footer h4 {
+    font-size: 30px;
+    color: #024500;
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+footer p {
+    font-size: 20px;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    text-align: center;
+}
+
+.contact {
+    position: relative;
+    padding-top: 150px;
+    padding-right: 100px;
+    width: 100%;
+}
+
+.social-links {
+    position: relative;
+    padding-right: 100px;
+    width: 100%;
+}
+.social-links > li {
+    display: inline;
+    list-style: none;
+}
+
+.social-links i {
+    margin: 2%;
+    color: #024500;
+    font-size: 180%;
 }
