@@ -11,6 +11,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     color: #569117;
+    box-sizing: border-box;
 }
 
 /* headings and logo */
@@ -118,14 +119,14 @@ hr {
     margin: 0 auto;
 }
 
-#left-bio {
+#right-bio {
     padding-top: 150px;
     padding-right: 10em;
     width: 40%;
     float: right;
 }
 
-#right-bio{
+#left-bio{
     padding-top: 100px;
     padding-right: 250px;
     height: 100%;
@@ -135,7 +136,7 @@ hr {
 
 
 
-.left-bio-text {
+.right-bio-text {
     line-height: 30px;
     letter-spacing: 5px;
     padding-right: 100px;
@@ -258,6 +259,91 @@ hr {
     line-height: 40px;
     border-radius: 50%;
 }
+
+/* about */
+
+.about-workshops {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about img {
+    float: left;
+    overflow: hidden;
+    height: auto;
+    width: 40%;
+    margin-left: 170px;
+}
+ 
+.inner-container {
+    width: 30%;
+    position: relative;
+    float: right;
+    padding: 140px;
+    right: 170px;
+    top: 130px;
+    background-color: #fdfdfd;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+
+.inner-container h1 {
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 900;
+    color: #024500;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+}
+ 
+
+.text {
+    font-size: 13px;
+    color: #569117;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
+}
+
+
+ 
+.skills { 
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+    color: #569117;
+}
+ 
+
+.about span {
+  cursor: text;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  width: 500px;
+}
+
+
+.about span:hover {
+background-image: linear-gradient(to right top, #BBDBBE, #DEEBDD);
+color: #024500;
+border-radius: 20px;
+transition: 0.5s;
+}
+
+
+.active-about {
+  background-image: linear-gradient(to right top, #BBDBBE, #DEEBDD);
+  color: #024500;
+  border-radius: 20px;
+}
+
 
 /* footer */
 
