@@ -311,7 +311,7 @@ hr {
 }
 
 
-/* about */
+/* about page */
 
 
 .about-workshops {
@@ -372,7 +372,11 @@ hr {
     letter-spacing: 5px;
     color: #569117;
 }
- 
+
+.skills a {
+    text-decoration: none;
+    color: inherit;
+}
 
 .about span {
   cursor: text;
@@ -390,7 +394,23 @@ border-radius: 20px;
 transition: 0.5s;
 }
 
-#workshop {
+/* about the workshops */
+
+#workshop1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#workshop2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#workshop3 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -398,59 +418,150 @@ transition: 0.5s;
 }
 
 
-.bg-image {
+.wks-image1 {
+    float: right;
     overflow: hidden;
-    filter: blur(1.5px);
-    -webkit-filter: blur(1.5px);
-    width: 50%;
+    height: auto;
+    width: 170%;
+    margin-right: 200px;
+    margin-top: 150px;
     position: relative;
-    left: 150px;
+    right: 100px;
 }
 
-.bg-image1 {
+.wks-image2 {
+    float: left;
     overflow: hidden;
-    filter: blur(1.5px);
-    -webkit-filter: blur(1.5px);
-    width: 50%;
-    position: relative;
-    left: 500px;
+    height: auto;
+    width: 1000px;
+    margin-top: 220px;
+    margin-left: 0px;
 }
 
-.wks-text {
-    background-color: rgb(0,0,0);
-    background-color: rgba(250, 250, 250, 0.6);
-    color: #569117;
-    font-weight: bold;
-    border: 3px solid #f1f1f1;
-    top: 50%;
-    right: 420px;
-    z-index: 2;
-    padding: 20px;
-    text-align: center;
+.wks-image3 {
+    float: right;
+    overflow: hidden;
+    height: auto;
+    width: 150%;
+    margin-right: 180px;
+    margin-top: 200px;
     position: relative;
-    width: 48%;
+    right: 9px;
 }
 
-#workshop p {
+
+
+.wks-container1 {
+    width: 130%;
+    height: 950px;
+    position: relative;
+    float: left;
+    padding: 70px 100px 60px 100px;
+    right: 100px;
+    top: 50px;
+    background-color: #fdfdfd;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.wks-container2 {
+    width: 800px;
+    height: 800px;
+    position: relative;
+    float: right;
+    padding: 120px 100px 0px 100px;
+    right: 150px;
+    top: 50px;
+    background-color: #fdfdfd;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+   
+}
+
+.wks-container3 {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    float: left;
+    padding: 100px 100px 0px 100px;
+    right: 10px;
+    top: 50px;
+    background-color: #fdfdfd;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+#workshop1 p, li {
     color: #10420E;
     letter-spacing: 5px;
     line-height: 20px;
     text-align: left;
 }
 
-#workshop h2 {
+#workshop2 p, li {
+    color: #10420E;
     letter-spacing: 5px;
-    text-transform: uppercase;
-    line-height: 150px;
+    line-height: 20px;
+    text-align: left;
 }
 
+#workshop3 p, li {
+    color: #10420E;
+    letter-spacing: 5px;
+    line-height: 20px;
+    text-align: left;
+}
 
-#workshop h3 {
+.reconnect-title {
+    position: relative;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 50px;
+    left: 1080px;
+    bottom: 340px;
+
+}
+
+.climate-title {
+    position: relative;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 50px;
+    bottom: 300px;
+    left: 500px;
+}
+
+.forest-title {
+    position: relative;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 50px;
+    left: 1200px;
+    bottom: 300px;
+    ;
+}
+
+#workshop1 h3 {
     color: #024500;
     letter-spacing: 5px;
     font-family: 'Oswald', sans-serif;
     line-height: 80px;
-    font-size: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#workshop2 h3 {
+    color: #024500;
+    letter-spacing: 5px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 80px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#workshop3 h3 {
+    color: #024500;
+    letter-spacing: 5px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 80px;
+    font-size: 30px;
     text-transform: uppercase;
 }
 
