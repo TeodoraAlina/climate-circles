@@ -54,7 +54,6 @@ h2 {
     float: right;
     list-style-type: none;
     margin-right: 25px;
-    margin-top: 60px;
 }
 
 
@@ -304,28 +303,28 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center; 
-    position: relative;
-    top: 200px;
-    margin-bottom: 300px;
+    width: 100%;
+    height: 770px;
 }
 
 
-.about img {
+.about-workshops img {
     float: left;
     overflow: hidden;
     height: auto;
-    width: 40%;
-    margin-left: 170px;
+    width: 50%;
+    margin-left: 100px;
 }
+
  
 
 .inner-container {
-    width: 30%;
+    width: 40%;
     position: relative;
     float: right;
     padding: 130px;
-    right: 175px;
-    top: 110px;
+    right: 80px;
+    top: 90px;
     background-color: #fdfdfd;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
@@ -356,9 +355,7 @@ hr {
 .skills { 
     display: flex;
     justify-content: space-between;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 5px;
-    color: #569117;
+   
 }
 
 .skills a {
@@ -366,16 +363,21 @@ hr {
     color: inherit;
 }
 
-.about span {
-  cursor: text;
-  font-size: 17px;
-  text-align: center;
-  padding: 10px;
-  width: 500px;
+.about-workshops button {
+    cursor: text;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+    background-color: #024500;
+    color: #BBDBBE;
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 
-.about span:hover {
+.about-workshops button:hover {
 background-image: linear-gradient(to right top, #BBDBBE, #DEEBDD);
 color: #024500;
 border-radius: 20px;
@@ -384,167 +386,74 @@ transition: 0.5s;
 
 /* about the workshops */
 
-#workshop1 {
+#workshop1, #workshop2, #workshop3 {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
     justify-content: center;
-    padding-bottom: 100px;
-}
-
-#workshop2 {
-    display: flex;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 100px;
-}
-
-#workshop3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 100px;
-}
-
-
-.wks-image1 {
-    float: right;
-    overflow: hidden;
-    height: auto;
-    width: 170%;
-    margin-right: 200px;
-    margin-top: 150px;
-    position: relative;
-    right: 100px;
-}
-
-.wks-image2 {
-    float: left;
-    overflow: hidden;
-    height: auto;
-    width: 1000px;
-    margin-top: 220px;
-    margin-left: 0px;
-}
-
-.wks-image3 {
-    float: right;
-    overflow: hidden;
-    height: auto;
-    width: 150%;
-    margin-right: 180px;
-    margin-top: 200px;
-    position: relative;
-    right: 8.5px;
-}
-
-
-
-.wks-container1 {
-    width: 130%;
-    height: 950px;
-    position: relative;
-    float: left;
-    padding: 70px 100px 10px 100px;
-    right: 100px;
-    top: 50px;
-    background-color: #fdfdfd;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-}
-
-.wks-container2 {
-    width: 800px;
-    height: 800px;
-    position: relative;
-    float: right;
-    padding: 120px 100px 0px 100px;
-    right: 150px;
-    top: 50px;
-    background-color: #fdfdfd;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-   
-}
-
-.wks-container3 {
     width: 100%;
-    height: 800px;
-    position: relative;
-    float: left;
-    padding: 100px 100px 0px 100px;
-    right: 10px;
-    top: 50px;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.wks-image {
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+}
+
+
+.wks-container {
     background-color: #fdfdfd;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
+    padding: 120px 100px 120px 100px;
+    width: 100%;
+    align-items: center;
+    height: auto;
 }
 
-#workshop1 p, li {
+
+.description {
     color: #569117;
     letter-spacing: 5px;
     line-height: 20px;
     text-align: left;
 }
 
-#workshop2 p, li {
-    color: #569117;
-    letter-spacing: 5px;
-    line-height: 20px;
-    text-align: left;
-}
-
-#workshop3 p, li {
-    color: #569117;
-    letter-spacing: 5px;
-    line-height: 20px;
-    text-align: left;
-}
-
-.reconnect-title {
+#workshop1 h2 {
     position: relative;
     letter-spacing: 5px;
     text-transform: uppercase;
     font-size: 50px;
-    left: 1080px;
-    bottom: 340px;
+    bottom: 7em;
+    left: 23em;
 
 }
 
-.climate-title {
+#workshop2 h2{
     position: relative;
     letter-spacing: 5px;
     text-transform: uppercase;
     font-size: 50px;
-    bottom: 300px;
-    left: 500px;
+    bottom: 21rem;
+    left: 10.5em;
 }
 
-.forest-title {
+#workshop3 h2 {
     position: relative;
     letter-spacing: 5px;
     text-transform: uppercase;
     font-size: 50px;
-    left: 1200px;
-    bottom: 300px;
-    ;
+    left: 23em;
+    bottom: 6.7em;
 }
 
-#workshop1 h3 {
-    color: #024500;
-    letter-spacing: 5px;
-    font-family: 'Oswald', sans-serif;
-    line-height: 80px;
-    font-size: 30px;
-    text-transform: uppercase;
-}
 
-#workshop2 h3 {
-    color: #024500;
-    letter-spacing: 5px;
-    font-family: 'Oswald', sans-serif;
-    line-height: 80px;
-    font-size: 30px;
-    text-transform: uppercase;
-}
-
-#workshop3 h3 {
+.description-titles {
     color: #024500;
     letter-spacing: 5px;
     font-family: 'Oswald', sans-serif;
@@ -636,9 +545,8 @@ textarea {
 
 /* footer */
 
-
 footer {
-    padding: 150px 0 15px 0;
+    padding-bottom: 15px;
 }
 
 
