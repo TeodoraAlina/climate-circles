@@ -68,7 +68,8 @@ h2 {
     float: right;
     list-style-type: none;
     margin-right: 25px;
-    line-height: 100px;
+    position: relative;
+    bottom: 60px;
 }
 
 
@@ -303,38 +304,38 @@ hr {
 /* about page */
 
 
-.about-workshops {
+#about-workshops {
     display: flex;
     align-items: center;
     justify-content: center; 
     width: 100%;
-    min-height: 90vh;
 }
 
 
-.about-workshops img {
-    float: left;
+#background-image {
+    background-image: url(../images/hands.jpg);
+    height: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 55%;
+    position: relative;
+    padding: 100px 0;
     overflow: hidden;
-    height: auto;
-    width: 50%;
-    margin-left: 5%;
 }
 
  
 
-.inner-container {
-    width: 40%;
-    position: relative;
+#inner-container {
+    width: 55%;
     float: right;
-    padding: 130px;
-    right: 8%;
-    top: 10%;
+    padding: 150px;
     background-color: #fdfdfd;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
 }
 
 
-.inner-container h1 {
+
+#inner-container h1 {
     margin-bottom: 10%;
     font-size: 40px;
     font-weight: 900;
@@ -367,7 +368,7 @@ hr {
     color: inherit;
 }
 
-.about-workshops button {
+#about-workshops button {
     cursor: text;
     font-size: 17px;
     text-align: center;
@@ -381,7 +382,7 @@ hr {
 }
 
 
-.about-workshops button:hover {
+#about-workshops button:hover {
 background-image: linear-gradient(to right top, #024500, #022101);
 color: #BBDBBE;
 border-radius: 20px;
@@ -392,30 +393,52 @@ transition: 0.5s;
 
 #workshop1, #workshop2, #workshop3 {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    min-height: 90vh;
-    margin-top: 10%;
-    margin-bottom: 10%;
+}
+
+#workshop3 {
+    margin-bottom: 10px;
 }
 
 
-.wks-image {
+#wks-image {
+    background-image: url(../images/the-work-that-reconnects.jpg);
+    height: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 55%;
+    position: relative;
+    padding: 100px 0;
     overflow: hidden;
-    max-width: 50%;
 }
 
 
 .wks-container {
+    width: 55%;
+    float: left;
+    padding: 80px;
     background-color: #fdfdfd;
     box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
-    padding: 120px 100px 120px 100px;
-    max-width: 50%;
-    align-items: center;
+}
+
+#wks-image2 {
+    background-image: url(../images/climate-circles.JPG);
+    height: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 55%;
+    position: relative;
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.wks-container2 {
+    width: 55%;
+    float: right;
+    padding: 80px;
+    background-color: #fdfdfd;
+    box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
 }
 
 
@@ -426,32 +449,13 @@ transition: 0.5s;
     text-align: left;
 }
 
-#workshop1 h2 {
+.wks-title {
     position: relative;
     letter-spacing: 5px;
     text-transform: uppercase;
     font-size: 50px;
-    bottom: 7em;
-    left: 70%;
-
-}
-
-#workshop2 h2{
-    position: relative;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font-size: 50px;
-    bottom: 21rem;
-    left: 30%;
-}
-
-#workshop3 h2 {
-    position: relative;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font-size: 50px;
-    left: 70%;
-    bottom: 6.7em;
+    text-align: center;
+    margin-bottom: 60px;
 }
 
 
@@ -469,7 +473,6 @@ transition: 0.5s;
 
 
 .form-section {
-    clear: left;
     background: url("../images/tree-background.jpg") no-repeat center center;
     background-size: cover;
     min-height: 1500px;
@@ -477,6 +480,7 @@ transition: 0.5s;
     letter-spacing: 5px;
     text-transform: uppercase;
     font-size: 23px;
+    margin-bottom: 50px;
 }
 
 .contact-form {
@@ -486,7 +490,7 @@ transition: 0.5s;
     position: relative;
     padding: 200px 100px 70px 100px;
     top: 150px;
-    max-width: 40%;
+    width: 60%;
 } 
 
 .contact-form h2 {
@@ -496,6 +500,7 @@ transition: 0.5s;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 5px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .text-input {
@@ -540,6 +545,8 @@ textarea {
     background-color: #d78b19;
     color: #fafafa;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .join-button:hover {
@@ -610,11 +617,73 @@ footer p {
 
 /* media queries */
 
+@media screen and (min-width:1550px) {
+    
+    .wks-title {
+        margin-bottom: 150px;
+      }
+
+      .contact-form {
+        width: 60%;
+      }
+}
+
+@media screen and (min-width:1050px) {
+    
+    #background-image {
+        padding: 200px 0;
+    }
+
+    #inner-container {
+       padding: 80px;
+    }
+
+
+    .wks-container, .wks-container2 {
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+
+    #background-image {
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+
+    #inner-container {
+      width: 100%;
+    }
+
+    #wks-image, #wks-image2 {
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+
+    .wks-container, .wks-container2 {
+        width: 100%;
+    }
+
+    .contact-form {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .wks-title {
+       margin-bottom: 150px;
+    }
+}
+
 @media screen and (max-width:900px) {
 
      #meet-up-text {
        font-size: 85%;
        bottom: 230px;
+    }
+
+    .contact-form {
+        width: 90%;
     }
 }
 
@@ -631,6 +700,7 @@ footer p {
         height: 600px;
         background: url(../images/My\ project\ \(15\).jpg) no-repeat center center;
         background-size: cover;
+        margin-top: 20px;
     }
     
       hr {
@@ -643,6 +713,7 @@ footer p {
         text-align: left;
         line-height: 30px;
         margin-bottom: 30px;
+        padding: 0px 40px;
     }
 
       .container p {
@@ -686,6 +757,61 @@ footer p {
         bottom: 16rem;
         right: 0px;
     }
+    
+
+    #about-workshops {
+        margin-top: 20px;
+    }
+
+    #inner-container {
+        padding: 40px;
+    }
+
+    .wks-container, .wks-container2 {
+        padding: 40px;
+    }
+
+    .form-section {
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    #background-image {
+        padding: 20px;
+    }
+
+    #inner-container {
+        padding: 60px;
+    }
+
+    .text {
+        letter-spacing: 0px;
+    }
+
+    #workshop1, #workshop2, #workshop3 {
+        margin: 80px 0px;
+    }
+
+    #wks-image, #wks-image2 {
+        padding: 20px;
+    }
+
+    .wks-container, .wks-container2 {
+        padding: 60px;
+    }
+
+
+    .description {
+        letter-spacing: 0px;
+        line-height: normal;
+    }
+
+    .contact-form {
+        padding: 100px 50px 35px 50px;
+    }
+
 }
 
 
@@ -699,6 +825,7 @@ footer p {
 
     #hero-image {
         height: 540px;
+        margin-top: 20px;
     }
 
 
@@ -712,4 +839,29 @@ footer p {
     hr {
         width: 50%;
     }
+
+    #inner-container {
+        padding: 10px;
+    }
+
+    #background-image {
+        padding: 30px 20px;
+    }
+
+   
+
+    #wks-image, #wks-image2 {
+        padding: 30px 20px;
+    }
+
+    .wks-container, .wks-container2 {
+        padding: 40px;
+    }
+   
+    .contact-form {
+        padding: 50px 25px 17.5px 25px;
+    }
+    
+    
+
 }
