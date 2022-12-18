@@ -31,8 +31,8 @@ body {
 }
 
 #header a {
-    height: 150px;
-    width: 300px;
+    height: 110px;
+    width: 306px;
 }
 
 
@@ -50,7 +50,7 @@ h2 {
 } 
 
 #logo img {
-    width: 300px;
+    width: 306px;
     height: 110px;
 }
 
@@ -60,13 +60,14 @@ h2 {
 
 
 #menu, #logo {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 #menu {
     font-size: 120%;
     letter-spacing: 5px;
     text-transform: uppercase;
+    float: right;
 
 }
   
@@ -76,8 +77,6 @@ h2 {
     float: right;
     list-style-type: none;
     margin-right: 25px;
-    position: relative;
-    bottom: 60px;
 }
 
 
@@ -243,6 +242,8 @@ hr {
     margin-right: 20px;
     border-radius: 50%;
     max-width: 40%;
+    width: 400px;
+    height: 400px;
     margin: auto;
     float: none;
     display: block;
@@ -735,6 +736,8 @@ footer p {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-evenly;
+        float: none;
+        margin-top: 30px;
 }
 
 
