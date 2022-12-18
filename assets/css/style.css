@@ -30,6 +30,11 @@ body {
 
 }
 
+#header a {
+    height: 150px;
+    width: 300px;
+}
+
 
 h2 {
     font-family: 'Oswald', sans-serif;
@@ -45,9 +50,10 @@ h2 {
 } 
 
 #logo img {
-    width: 360px;
-    height: 130px;
+    width: 300px;
+    height: 110px;
 }
+
 
 
 /* navigations links */
@@ -128,6 +134,14 @@ h2 {
     position: absolute;
 }
 
+.center {
+    text-align: center;
+}
+
+.float-right {
+    float: right;
+}
+
 
 /* bio */
 
@@ -180,6 +194,11 @@ hr {
     height: 50%;
     border-radius: 50%;
     transition: 1.5s ease-in-out;
+}
+
+#left-bio img {
+    width: 300px;
+    height: 300px;
 }
 
 
@@ -556,7 +575,7 @@ textarea {
     padding: 20px 32px 20px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #d78b19;
+    background-color: #7c4e09;
     color: #fafafa;
     display: block;
     margin-left: auto;
@@ -579,7 +598,7 @@ footer h4 {
     font-size: 20px;
     color: #024500;
     text-transform: uppercase;
-    padding-bottom: 30px;
+    padding: 30px 0px;
 }
 
 
@@ -703,12 +722,26 @@ footer p {
 }
 
 @media screen and (max-width:720px) {
-      #logo {
-        position: static;
+      
+    #header a {
+        margin: auto;
+    }
+
+    #logo {
+        top: 0px;
     } 
   
+    #menu {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+}
+
+
+
       #menu li {
-        position: static;
+       position: unset;
+       margin-right: 0px;
     }
 
       #hero-image {
@@ -717,6 +750,11 @@ footer p {
         background-size: cover;
         margin-top: 20px;
     }
+
+    #cover-text {
+        right: 0px;
+        letter-spacing: 0px;
+    }
     
       hr {
         width: 50%;
@@ -724,22 +762,17 @@ footer p {
 
       #right-bio {
         max-width: 100%;
-        letter-spacing: 5px;
-        text-align: left;
-        line-height: 30px;
+        letter-spacing: 0px;
         margin-bottom: 30px;
         padding: 0px 40px;
+        text-align: justify;
     }
 
       .container p {
-        letter-spacing: 5px;
-        line-height: 30px;
+        letter-spacing: 0px;
         max-width: 100%;
-        display: block;
-        margin: auto;
         float: none;
-        margin-top: 30px;
-        margin-bottom: 30px;
+        text-align: justify;
     }
 
 
@@ -834,9 +867,9 @@ footer p {
 
 @media screen and (max-width:445px) {
 
+
     #menu li {
-        font-size: 70%;
-        margin-right: 7px;
+      letter-spacing: 0px;
 
     }
 
