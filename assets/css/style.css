@@ -189,8 +189,6 @@ hr {
 
 
 .alexandra {
-    width: 100%;
-    height: 50%;
     border-radius: 50%;
     transition: 1.5s ease-in-out;
 }
@@ -239,11 +237,9 @@ hr {
 
 
 .container img {
-    margin-right: 20px;
     border-radius: 50%;
     max-width: 40%;
     width: 400px;
-    height: 400px;
     margin: auto;
     float: none;
     display: block;
@@ -738,6 +734,7 @@ footer p {
         justify-content: space-evenly;
         float: none;
         margin-top: 30px;
+        margin-bottom: 0px;
 }
 
 
@@ -778,10 +775,14 @@ footer p {
         text-align: justify;
     }
 
+    #meet-up {
+        height: 1300px;
+    }
 
      #meet-up-times {
         margin-bottom: -300px;
         font-size: inherit;
+        height: 1150px;
     }
 
      #meet-up-img {
