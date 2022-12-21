@@ -69,5 +69,18 @@ Based on the content required in the scope this website will consist of 3 pages:
 ### Imagery
 
 The Images from the Workshops, In the About Page were given by Alexandra from her workshops, as the photo from "Meet Alexandra" on the Home Page.
-I chose the Hero image from the Home page because of the simple feeling that sends you when you look at it, giving you a peaceful vibe when entering the website. The images from the "Meet-up Times" section were chosen to match the vibes of the workshops. 
+I chose the Hero image from the Home page because of the simple feeling that sends you when you look at it, giving you a peaceful vibe when entering the website. The images from the "Meet-up Times" section were chosen to match the vibes of the workshops. In the background of the Contact Form I have chosen the stem of a tree for the nice contrast and also to keep the nature theme on the entire website.
+
+Image Links:
+
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
 
