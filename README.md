@@ -2,6 +2,7 @@
 ## Milestone Project One
 
 This webite was created for Alexandra Brinzac, a psychologist specialised in experiential psychotherapy, with a passion for climate psychology, ecopsycholgy and nature-based therapies. After all the studies and experience that she gathered, she decided it's time to move further and create "Climate Circles", a place for people with the same love for nature, connection and Planet Earth. The role of this website is to raise awareness  about the importance of being in a circle and working together towards creating a just regenerative world. The means that we are reaching this are workshops of The World That Reconnects, Climate Circles and Forest Bathing sessions. 
+***
 ## Demo
 
 You can view the live website here - [Climate Circles](https://teodoraalina.github.io/climate-circles/)
@@ -11,6 +12,7 @@ You can view the GitHub repository here - [TeodoraAlina/climate-circles](https:/
 ![Responsive Home Page](assets/images/home-page-responsize.webp)
 ![Responsive About Page](assets/images/about-page-responsive.webp)
 ![Responsive Contact Page](assets/images/contact-page-responsive.webp)
+***
 
 
 ## User Experience (UX)
@@ -101,6 +103,7 @@ I imported the following code into the top of my style.css file:
 * In the "About" page, the workshops have been styled as buttons to be more inviting for users to click. When hovered over, the colors switch.
 * The "Submit" button has a nice brown earthy color which goes perfect with the background in the "Contact" page. The colors change when hovered over.
 * The social media links will send the user to Alexandra's social media pages. They also change colour when hovered over.
+***
 
 ## Features
 
@@ -144,4 +147,23 @@ Consists of:
 * The email input field requires the answer to be an email.
 * There is a - textarea - to allow the user to ask any further details. I have used placeholder text to encourage the user to make any further comments.
 * The submit button is large and changes colour when hovered over.
-* The labels are clear as to what should go in the field and all fields are set to “required.
+* The labels are clear as to what should go in the field and all fields are set to “required".
+***
+## Technologies Used
+* HTML5 - Mark-up language using semantic structure.
+* CSS3 - Cascading style sheet used for styling.
+* Gitpod.io - For writing the code, using the command line for commiting and pushing to GitHub.
+* GitHub - Used to host the repository.
+* Git - Used for version control of the project.
+
+* [Google fonts](https://fonts.google.com/) - For styling the typography.
+* [Balsamiq wireframe](https://balsamiq.cloud/) - To build wireframes in the design phase.
+* [Font Awesome](https://fontawesome.com/) - For the social media icons.
+* [Beautifier](https://beautifier.io) - To beautify my code.
+* [Tiny PNG](https://tinypng.com/) - To compress my images.
+* [Online-Convert](https://image.online-convert.com/convert-to-webp) - To convert my images to WebP.
+* [HTML Validator]() - Testing validity of HTML.
+* [CSS Validator]() - Testing validity of CSS.
+* [Am I Responsive]() - Checking the responsive nature and creating the mock-ups provided.
+* DEV Tools - Lighthouse.
+***
