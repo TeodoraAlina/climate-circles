@@ -21,11 +21,11 @@ You can view the GitHub repository here - [TeodoraAlina/climate-circles](https:/
 
 ### User Stories
 #### First time Visitor Goals
-* As a first-time visitor, I want to understand the main purpose of the site with ease.
-* As a first-time visitor, I want to be able to navigate throughout the site with ease.
-* As a first-time visitor, I want the site to be visually appealing regardless of screen size.
-* As a first-time visitor, I want the links to function properly.
-* As a first-time visitor, I want to find out more about the workshops.
+* As a first-time visitor, I want to understand the main purpose of the site with ease;
+* As a first-time visitor, I want to be able to navigate throughout the site with ease;
+* As a first-time visitor, I want the site to be visually appealing regardless of screen size;
+* As a first-time visitor, I want the links to function properly;
+* As a first-time visitor, I want to find out more about the workshops;
 * As a first-time visitor, I want to get in touch easily.
 
 #### Returning Visitor Goals
@@ -44,18 +44,16 @@ You can view the GitHub repository here - [TeodoraAlina/climate-circles](https:/
 * Increase people's participation in the workshops.
 
 ## Scope
-* Let the audience know who we are and what we do.
-* Tell the audience about the workshops.
-* List the times of the workshops.
-* Persuade the audience by sharing the experiences (testimonials) of other participants.
+* Let the audience know who we are and what we do;
+* Tell the audience about the workshops;
+* List the times of the workshops;
+* Persuade the audience by sharing the experiences (testimonials) of other participants;
 * Make it easy to get in touch by telephone, email, social media, or contact form.
 
 
 ## Structure
 
 Based on the content required in the scope, this website will consist of 3 pages:
-
-
 
 * A Home Page, which will contain a small biography of Alexandra, testimonials, and the meet-up times;
 * An About Page with descriptions and benefits of the workshops;
@@ -99,7 +97,7 @@ I imported the following code into the top of my style.css file:
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald&display=swap'); 
 ```
 ### Call to Action
-* * The links in the Navigation bar are highlighted with a border bottom when the mouse is hovered over them.
+* The links in the Navigation bar are highlighted with a border bottom when the mouse is hovered over them.
 * On the "About" page, the workshops have been styled as buttons to make them more inviting for users to click. When hovered over, the colors switch.
 * The "Submit" button has a nice, earthy brown color that goes perfectly with the background on the "Contact" page. The colors change when hovered over.
 * The social media links will send the user to Alexandra's social media pages. They also change colour when hovered over.
@@ -108,31 +106,26 @@ I imported the following code into the top of my style.css file:
 ## Features
 ### Navigation Links and Logo
 
-
 The navigation links and logo are placed at the top of the screen. In bigger screen sizes, the logo stays in the left corner and the navigation links in the right corner of the screen. On smaller screen sizes, the logo is centered, and the navigation links go underneath the logo and are centered. When clicked, the logo takes the user to the home page. The navigation links direct the user to the correct page of the website.
 
 
 ### Responsiveness
-
 
 The page is scaled up and down for different screen resolutions to help the content stay neat. This has been done using media queries.
 
 
 ### Accessibility
 
-
 All images and navigations have an alt attribute or aria-label. This is to make the site easier to use for people with visual impairments by allowing them to navigate the site easily. There is high contrast used throughout the design. Header elements have been used in sequence so that the site makes semantic sense to screen readers. Links are consistent when hovered over.
 
 
 ### Footer
-
 
 The footer is split into two sections: "Contact Info" and "Social Links". On smaller devices, the two sections are stacked, while on larger devices, they are arranged in two columns.
 The "Contact Info" section includes the email and telephone number of Alexandra, where she can be reached. The last section with the social links has links to social media sites using icons from Font Awesome. When hovered over, these links change from a lighter green colour to a darker shade of green colour.
 
 
 ### Home Page
-
 
 Consists of:
 * A hero image and a nice quote from Robin Wall Kimmerer to ease users into the website's depths.
@@ -142,6 +135,7 @@ Consists of:
 
 
 ### About Page
+
 * In the first section, I have used a hero image and a container that has a title, a small description of the workshops, and three buttons that send you to each workshop section. On larger devices, the image is kept on the left side of the screen and the container is kept on the right. When the screen size becomes smaller, the image goes into the back of the container.
 * For the workshops sections, I have used the same style as for the first section.
 * The Workshops sections include a description of the workshops as well as their benefits.
@@ -151,7 +145,6 @@ Consists of:
 
 ### Contact Us Page
 
-
 Consists of:
 * A Contact Form
 * The form includes fields for the user to enter their contact details using - input type="text".
@@ -160,6 +153,7 @@ Consists of:
 * The submit button is large and changes colour when hovered over.
 * The labels are clear as to what should go in the field, and all fields are set to "required".
 ***
+
 ## Technologies Used
 * HTML5 - Mark-up language using semantic structure.
 * CSS3 - Cascading style sheet used for styling.
@@ -173,11 +167,12 @@ Consists of:
 * [Beautifier](https://beautifier.io) - To beautify my code.
 * [Tiny PNG](https://tinypng.com/) - To compress my images.
 * [Online-Convert](https://image.online-convert.com/convert-to-webp) - To convert my images to WebP.
-* [HTML Validator]() - Testing validity of HTML.
-* [CSS Validator]() - Testing validity of CSS.
-* [Am I Responsive]() - Checking the responsive nature and creating the mock-ups provided.
+* [HTML Validator](https://validator.w3.org/#validate_by_input) - Testing validity of HTML.
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) - Testing validity of CSS.
+* [Am I Responsive](https://ui.dev/amiresponsive#) - Checking the responsive nature and creating the mock-ups provided.
 * DEV Tools - Lighthouse.
 ***
+
 ## Testing
 * I tested whether the logo returns the user to the main page.
 * I have tested to see if the navigation bar works and the user is sent to the correct page of the site.
@@ -242,6 +237,62 @@ The user can easily find what he is looking for on the website. The three differ
 * A user searching for a way of relaxing.
 
 The user can easily observe that this is what the workshops are offering. In the "About" page, descriptions and benefits are listed for each workshop.
+***
+
+## Deployment
+### Adding and commiting files
+I’ve been using Gitpod to write my code and using the terminal within to add, commit and push code from my workspace to GitHub where it is stored remotely as shown in the course content.
+
+* When I have made a couple of minor additions / changes or one large change or addition I add the file in question to the staging area by typing in the terminal git add . the full stop will add all new files.
+* I now want to save my changes to the local repository by typing git commit –m “ ” into the terminal. Between the “ ” I'll write a concise message detailing what this commit has done.
+* When I either want to upload all my changes for the day or view on GitHub Pages I push all the commits I’ve previously done to GitHub using the git push command. When GitHub Pages is set up for the repository in question it will automatically pick up these changes and display the most up to date version that has been pushed.
+
+### Delpoying to GitHub Pages
+
+The project was deployed with the following steps
+
+* Log into GitHub;
+* Click the "Settings" button in the menu above the Repository;
+* Scroll down the Settings page to the "GitHub Pages" Section;
+* Under "Source", click the dropdown called "None" and then select "Master Branch";
+* The page will automatically refresh, and a link displaced. It may take some time for the link to show the website.
+* If the page will not load go down to "template" under the "source" and select a template.
+* Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+### Cloning
+ 
+ Taken from GitHub's documentation on cloning, which can be found [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) :
+ 
+* Once logged into GitHub, navigate to the repository you wish to clone.
+* Next to the green Gitpod button there's a button that reads code, click this.
+* To clone the repository using HTTPS, copy the link whilst HTTPS is selected.
+* Open your local IDE of choice and open the terminal.
+* Navigate to the working directory of where you want the cloned directory to be.
+* Type ```git clone``` in the terminal and then paste the link that you selected in step 3. Press enter.
+* The clone is created in your current working directory (```cwd```).
+***
+## Acknowledgements
+### Credit
+* Alexandra Brinzac, who allowed me to this site based on her information and supplying the content.
+* Tutor support at Code Institute for their help when required.
+* My mentor, Brian Macharia, for helping and guiding me through this project during the mentor sessions.
+* [Code Institute SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME)
+* [W3schools](https://www.w3schools.com) - for various code information.
+* [Balsamiq wireframes](https://balsamiq.cloud/) - To build wireframes in the design phase.
+* [Pexels](https://www.pexels.com/) - for the images used in the website.
+* [Beautifier](https://beautifier.io) - To beautify my code.
+* [Tiny PNG](https://tinypng.com/) - To compress my images.
+* [Online-Convert](https://image.online-convert.com/convert-to-webp) - To convert my images to WebP.
+* [HTML Validator](https://validator.w3.org) - Testing validity of HTML.
+* [CSS Validator](https://jigsaw.w3.org/css-validator/) - Testing validity of CSS.
+* [Am I Responsive](https://ui.dev/amiresponsive#) - Checking the responsive nature and creating the mock-ups provided.
+* [Logo](https://logo.com/) - Making the logo for the website.
+### Code
+The "About" page was based on the code from [this website](https://fantacydesigns.com/about-us-page-design), which I customised for my needs.
+
+
+
+
 
 
 
