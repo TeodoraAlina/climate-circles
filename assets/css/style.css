@@ -894,6 +894,10 @@ footer p {
         width: 50%;
     }
 
+    #about-workshops button {
+        font-size: 14px;
+    }
+
     #inner-container {
         padding: 10px;
     }
