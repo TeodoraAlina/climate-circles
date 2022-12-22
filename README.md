@@ -210,6 +210,43 @@ I have tested using the Developer Tools Lighthouse for desktop and mobile :
 ![DevTools About Page Mobile](assets/images/devtools-about-mobile.png)
 ![DevTools Contact Page Moble](assets/images/devtools-contact-mobile.png)
 
+### Browser Compatibility
+
+I have tested my website on the following:
+* Google Chrome(desktop and mobile);
+* Safari(desktop and mobile);
+* Mozila Firefox(desktop and mobile).
+
+### OS Compatibility
+
+Tested on iOS, macOS and Android. Tested for responsiveness using Chrome DevTools.
+
+### Testing User Stories
+
+* A user looking to know more about Alexandra.
+
+The user can easily find information about Alexandra on the "Home" page.
+
+* A user seeking a new hobby.
+
+This website introduces the user to his new hobby by offering three different workshops to attend. 
+
+* A user conducting research on our services.
+
+The user can find information and testimonials on the main page, as well as the dates and times of workshops. They can then go to the "About" page to find more information and images about the workshops.
+
+* A user who wishes to spend more time in nature.
+
+The user can easily find what he is looking for on the website. The three different workshops provide the time needed in nature. He can find the times and location on the main page, in the last section.
+
+* A user searching for a way of relaxing.
+
+The user can easily observe that this is what the workshops are offering. In the "About" page, descriptions and benefits are listed for each workshop.
+
+
+
+
+
 
 
 
