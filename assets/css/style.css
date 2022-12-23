@@ -11,26 +11,23 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+
     color: #3e6712;
+
     box-sizing: border-box;
     max-width: 1800px;
     margin-left: auto;
-    margin-right: auto;
-
+    margin-right: auto;  
 }
-
 
 /* headings and logo */
 
-
 #header {
     display: flex;
-    flex-direction: column;
-
+    flex-direction: column;  
 }
 
 #header a {
@@ -38,29 +35,24 @@ body {
     width: 306px;
 }
 
-
 h2 {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 5px;
     color: #024500;
 }
 
-
 #logo {
     float: left;
     position: relative;
     top: 15px;
-} 
+}
 
 #logo img {
     width: 306px;
     height: 110px;
 }
 
-
-
 /* navigations links */
-
 
 #menu, #logo {
     margin-bottom: 30px;
@@ -71,10 +63,8 @@ h2 {
     letter-spacing: 5px;
     text-transform: uppercase;
     float: right;
-
+    
 }
-  
-
 
 #menu li {
     float: right;
@@ -82,22 +72,18 @@ h2 {
     margin-right: 25px;
 }
 
-
 #menu a {
     text-decoration: none;
     color: inherit;
 }
 
-
 #menu a:hover {
     border-bottom: 1.8px solid #10420E;
 }
 
-
 .active {
     border-bottom: 1.8px solid #10420E;
 }
-
 
 /* hero image */
 
@@ -112,24 +98,22 @@ h2 {
     background-size: cover;
 }
 
-
 #cover-text, #cover-text h3 {
     color: #fff;
 }
-
 
 #cover-text {
     font-size: 100%;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
-
+    
     max-width: 600px;
-
+    
     padding-top: 30px;
     padding-left: 20px;
-
+    
     background-color: rgba(9, 105, 46, 0.7);
-
+    
     float: right;
     margin-top: 300px;
 }
@@ -142,15 +126,11 @@ h2 {
     float: right;
 }
 
-
 /* bio */
-
 
 #bio {
     min-height: 700px;
 }
-
-
 
 .meet {
     text-align: center;
@@ -158,7 +138,6 @@ h2 {
     font-size: 280%;
     text-transform: uppercase;
 }
-
 
 hr {
     border: 1px solid #3e6712;
@@ -178,15 +157,12 @@ hr {
     margin-top: 100px;
 }
 
-
-
 #right-bio {
     max-width: 40%;
     text-align: left;
     line-height: 40px;
-
+    
 }
-
 
 .alexandra {
     border-radius: 50%;
@@ -198,14 +174,11 @@ hr {
     height: 300px;
 }
 
-
 #left-bio img:hover {
-   transform: scale(0.9);
+    transform: scale(0.9);
 }
 
-
 /* testimonials */
-
 
 .container {
     border-radius: 50px;
@@ -219,21 +192,22 @@ hr {
     display: table;
 }
 
-
 .container img {
     border-radius: 50%;
     max-width: 40%;
     width: 400px;
+    height: 50%;
+
     margin: auto;
     float: none;
     display: block;
-    transition: 0.5s ease-in-out;
-    height: 50%;
- }
 
- .container img:hover {
+    transition: 0.5s ease-in-out;   
+}
+
+.container img:hover {
     transform: scale(0.9);
- }
+}
 
 .container p {
     line-height: 40px;
@@ -244,7 +218,6 @@ hr {
     margin-top: 30px;
     padding: 30px 0px;
 }
-
 
 /* meet-up */
 
@@ -270,19 +243,15 @@ hr {
     height: 50%;
 }
 
-
 #meet-up img:hover {
     transform: scale(0.9);
 }
 
-
 #meet-up-times h2 {
-    color:white;
+    color: white;
     letter-spacing: 3px;
-    font-size: 130%;
-
+    font-size: 130%;    
 }
-
 
 #meet-up-times h3 {
     font-size: 100%
@@ -294,27 +263,23 @@ hr {
     position: relative;
     bottom: 230px;
     line-height: 40px;
-    font-size: 95%;
-   
+    font-size: 95%;  
 }
 
 #meet-up-forest {
     position: relative;
     right: -20px;
- 
+    
 }
 
-
 /* about page */
-
 
 #about-workshops {
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     width: 100%;
 }
-
 
 #background-image {
     background-image: url(../images/hands.webp);
@@ -322,34 +287,33 @@ hr {
     background-position: left;
     background-repeat: no-repeat;
     background-size: 55%;
+
     position: relative;
     padding: 100px 0;
     overflow: hidden;
 }
 
- 
-
 #inner-container {
     width: 55%;
     float: right;
     padding: 150px;
+
     background-color: #fdfdfd;
     box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
 }
-
-
 
 #inner-container h1 {
     margin-bottom: 10%;
     font-size: 2.50rem;
     font-weight: 900;
-    color: #024500;
-    text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 5px;
+
+    color: #024500;
+
+    text-transform: uppercase;
     text-align: center;
 }
- 
 
 .text {
     font-size: 100%;
@@ -359,39 +323,40 @@ hr {
     margin-bottom: 10%;
 }
 
-
-.skills { 
+.skills {
     display: flex;
     justify-content: space-between;
-   
+    
 }
-
 
 #about-workshops .button {
     cursor: pointer;
     font-size: 17px;
-    text-align: center;
     padding: 10px;
-    background-image: linear-gradient(to right top, #BBDBBE, #DEEBDD);;
+
+    background-image: linear-gradient(to right top, #BBDBBE, #DEEBDD);
     color: #024500;
+
     border-radius: 20px;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     text-decoration: none;
+    text-align: center;
 }
 
-
 #about-workshops button:hover {
-background-image: linear-gradient(to right top, #024500, #022101);
-color: #BBDBBE;
-border-radius: 20px;
-transition: 0.5s;
+    background-image: linear-gradient(to right top, #024500, #022101);
+    color: #BBDBBE;
+    border-radius: 20px;
+    transition: 0.5s;
 }
 
 /* about the workshops */
 
-#workshop1, #workshop2, #workshop3 {
+#workshop1,
+#workshop2,
+#workshop3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -401,18 +366,17 @@ transition: 0.5s;
     margin-bottom: 10px;
 }
 
-
 .wks-image1 {
     background-image: url(../images/the-work-that-reconnects.webp);
-    height: 100%;
     background-position: right;
     background-repeat: no-repeat;
     background-size: 55%;
+
+    height: 100%;
     position: relative;
     padding: 100px 0;
     overflow: hidden;
 }
-
 
 .wks-container {
     width: 55%;
@@ -424,37 +388,36 @@ transition: 0.5s;
 
 .wks-image2 {
     background-image: url(../images/climate-circles.webp);
-    height: 100%;
     background-position: left;
     background-repeat: no-repeat;
     background-size: 55%;
+
+    height: 100%;
     position: relative;
     padding: 100px 0;
     overflow: hidden;
 }
 
-
 .wks-image3 {
     background-image: url(../images/hands-tree.webp);
-    height: 100%;
     background-position: right;
     background-repeat: no-repeat;
     background-size: 55%;
     position: relative;
+
+    height: 100%;
     padding: 100px 0;
     overflow: hidden;
 }
-
-
 
 .wks-container2 {
     width: 55%;
     float: right;
     padding: 80px;
+
     background-color: #fdfdfd;
     box-shadow: rgb(14 30 37 / 12%) 0px 2px 4px 0px, rgb(14 30 37 / 32%) 0px 2px 16px 0px;
 }
-
 
 .description {
     color: #3e6712;
@@ -463,14 +426,14 @@ transition: 0.5s;
 }
 
 .wks-title {
-    position: relative;
     letter-spacing: 5px;
     text-transform: uppercase;
     font-size: 3rem;
     text-align: center;
-    margin-bottom: 60px;
-}
 
+    margin-bottom: 60px;
+    position: relative;
+}
 
 .description-titles {
     color: #024500;
@@ -481,35 +444,36 @@ transition: 0.5s;
     text-transform: uppercase;
 }
 
-
 /* contact form */
-
 
 .form-section {
     background: url("../images/tree-background.webp") no-repeat center center;
     background-size: cover;
+
+    margin-bottom: 50px;
     height: 1500px;
+
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-size: 1.5rem;
-    margin-bottom: 50px;
 }
 
 .contact-form {
     margin: 0 auto;
     color: #024500;
     background-color: rgba(255, 255, 255, 0.6);
+
     position: relative;
     padding: 200px 100px 70px 100px;
     top: 150px;
     width: 60%;
-} 
+}
 
 .contact-form h1 {
     color: #024500;
     margin-bottom: 60px;
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -531,12 +495,12 @@ transition: 0.5s;
 }
 
 #message {
-    height: 200px;    
+    height: 200px;
 }
 
 input {
     font-size: 1rem;
-    font-family:'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
     padding: 15px;
@@ -555,11 +519,13 @@ textarea {
     padding: 20px 32px 20px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #7c4e09;
-    color: #fafafa;
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    background-color: #7c4e09;
+    color: #fafafa;
+    
 }
 
 .join-button:hover {
@@ -573,7 +539,6 @@ footer {
     padding-bottom: 50px;
 }
 
-
 footer h2 {
     font-size: 1.5rem;
     color: #024500;
@@ -582,10 +547,9 @@ footer h2 {
 }
 
 footer p {
-    font-size: 0.90rem;
+    font-size: 0.7rem;
     line-height: 40px;
 }
-
 
 .footer-container {
     max-width: 100%;
@@ -607,25 +571,21 @@ footer p {
     margin: 0 auto;
 }
 
-
 .social-links {
     margin: 20px 0;
 }
 
-
 .social-links a {
     color: #3e6712;
     margin: 8%;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-decoration: none;
     transition: .3s linear;
 }
 
-
 .social-links a:hover {
     color: #024500;
 }
-
 
 /* media queries */
 
@@ -633,104 +593,107 @@ footer p {
     
     .wks-title {
         margin-bottom: 450px;
-      }
-
-      .contact-form {
+    }
+    
+    .contact-form {
         width: 60%;
-      }
-
+    }
+    
 }
 
 @media screen and (max-width:1550px) {
     .wks-title {
         margin-bottom: 150px;
-      }
+    }
 }
 
 @media screen and (max-width:1250px) {
     .skills {
         flex-direction: column;
     }
-
+    
     #about-workshops .button {
         margin: 10px auto;
         width: 28ch;
     }
-}   
+}
 
 @media screen and (min-width:1050px) {
     
     #background-image {
         padding: 200px 0;
     }
-
+    
     #inner-container {
-       padding: 80px;
-    }
-
-
-    .wks-container, .wks-container2 {
         padding: 80px;
     }
-
+    
+    .wks-container,
+    .wks-container2 {
+        padding: 80px;
+    }
+    
 }
 
 @media screen and (max-width:1050px) {
-
+    
     #background-image {
         background-size: 100%;
         padding: 100px 40px;
     }
-
+    
     #inner-container {
-      width: 100%;
+        width: 100%;
     }
-
+    
     .wks-title {
         margin-bottom: 400px;
-      }
-
-    .wks-image1, .wks-image2, .wks-image3 {
+    }
+    
+    .wks-image1,
+    .wks-image2,
+    .wks-image3 {
         background-size: 100%;
         padding: 100px 40px;
     }
-
-    .wks-container, .wks-container2 {
+    
+    .wks-container,
+    .wks-container2 {
         width: 100%;
     }
-
+    
     .contact-form {
         width: 70%;
     }
 }
 
 @media screen and (max-width:900px) {
-
-     #meet-up-text {
-       font-size: 85%;
-       bottom: 200px;
-       line-height: 30px;
+    
+    #meet-up-text {
+        font-size: 85%;
+        bottom: 200px;
+        line-height: 30px;
     }
-
+    
     .wks-title {
         margin-bottom: 300px;
     }
-
+    
     .contact-form {
         width: 90%;
     }
 }
 
 @media screen and (max-width:720px) {
-      
+    
     #header a {
         margin: auto;
     }
-
+    
     #logo {
         top: 0px;
-    } 
-  
+    }
+    
     #menu {
         display: flex;
         flex-direction: row-reverse;
@@ -738,179 +701,178 @@ footer p {
         float: none;
         margin-top: 30px;
         margin-bottom: 0px;
-}
-
-
-
-      #menu li {
-       position: unset;
-       margin-right: 0px;
     }
-
-      #hero-image {
+    
+    #menu li {
+        position: unset;
+        margin-right: 0px;
+    }
+    
+    #hero-image {
         height: 600px;
         background: url(../images/hero-image2.webp) no-repeat center center;
         background-size: cover;
         margin-top: 20px;
     }
-
     
-      hr {
+    hr {
         width: 50%;
     }
-
-      #right-bio {
+    
+    #right-bio {
         max-width: 100%;
         margin-bottom: 30px;
         padding: 0px 40px;
         text-align: justify;
     }
-
-      .container p {
+    
+    .container p {
         max-width: 100%;
         float: none;
         text-align: justify;
     }
-
+    
     #meet-up {
         height: 1300px;
     }
-
-     #meet-up-times {
+    
+    #meet-up-times {
         margin-bottom: -300px;
         font-size: inherit;
         height: 1150px;
     }
-
-     #meet-up-img {
+    
+    #meet-up-img {
         flex-direction: column;
     }
-
-     #meet-up-text {
+    
+    #meet-up-text {
         flex-direction: column;
         right: 0px;
         bottom: 240px;
         line-height: 40px;
     }
-
-     #meet-up-reconnect {
+    
+    #meet-up-reconnect {
         position: relative;
         bottom: 45rem;
     }
-
-     #meet-up-climate {
+    
+    #meet-up-climate {
         position: relative;
         bottom: 30rem;
     }
-
-     #meet-up-forest {
+    
+    #meet-up-forest {
         position: relative;
         bottom: 16rem;
         right: 0px;
     }
     
-
     #about-workshops {
         margin-top: 20px;
     }
-
+    
     #inner-container {
         padding: 40px;
     }
-
-    .wks-container, .wks-container2 {
+    
+    .wks-container,
+    .wks-container2 {
         padding: 40px;
     }
-
+    
     .form-section {
         margin-top: 30px;
     }
-
+    
 }
 
 @media screen and (max-width:600px) {
     #background-image {
         padding: 20px;
     }
-
+    
     #inner-container {
         padding: 60px;
     }
-
+    
     .wks-title {
         margin-bottom: 100px;
-      }
-
-    #workshop1, #workshop2, #workshop3 {
+    }
+    
+    #workshop1,
+    #workshop2,
+    #workshop3 {
         margin: 80px 0px;
     }
-
-    .wks-image1, .wks-image2, .wks-image3 {
+    
+    .wks-image1,
+    .wks-image2,
+    .wks-image3 {
         padding: 20px;
     }
-
-    .wks-container, .wks-container2 {
+    
+    .wks-container,
+    .wks-container2 {
         padding: 60px;
     }
-
-
+    
     .description {
         line-height: normal;
     }
-
+    
     .contact-form {
         padding: 100px 50px 35px 50px;
     }
-
+    
 }
 
-
 @media screen and (max-width:445px) {
-
-
+    
     #menu li {
-      letter-spacing: 0px;
-
+        letter-spacing: 0px;
+        
     }
-
+    
     #hero-image {
         height: 540px;
         margin-top: 20px;
     }
-
-
+    
     #cover-text {
         margin-top: 235px;
         font-size: .80rem;
         max-width: 100%
     }
-
+    
     hr {
         width: 50%;
     }
-
+    
     #about-workshops button {
         font-size: 1rem;
     }
-
+    
     #inner-container {
         padding: 20px;
     }
-
+    
     #background-image {
         padding: 30px 20px;
     }
-
-   
-
-    .wks-image1, .wks-image2, .wks-image3 {
+    
+    .wks-image1,
+    .wks-image2,
+    .wks-image3 {
         padding: 30px 20px;
     }
-
-    .wks-container, .wks-container2 {
+    
+    .wks-container,
+    .wks-container2 {
         padding: 40px;
     }
-   
+    
     .contact-form {
         padding: 50px 25px 17.5px 25px;
     }

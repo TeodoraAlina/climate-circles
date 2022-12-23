@@ -274,7 +274,7 @@ I’ve been using Gitpod to write my code and using the terminal within to add, 
 ***
 ## Acknowledgements
 ### Credit
-* Alexandra Brinzac, who allowed me to this site based on her information and supplying the content.
+* Alexandra Brinzac, who allowed me to make this site based on her information and supplying the content.
 * Tutor support at Code Institute for their help when required.
 * My mentor, Brian Macharia, for helping and guiding me through this project during the mentor sessions.
 * [Code Institute SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME)
