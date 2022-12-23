@@ -61,7 +61,7 @@ Based on the content required in the scope, this website will consist of 3 pages
 
 ## Skeleton
 * Home Page Wireframes - [desktop](assets/images/home-page-desktop.webp) / [mobile](assets/images/home-page-phone.webp) / [tablet](assets/images/home-page-ipad.webp).
-* About Page Wireframes - [desktop](assets/images/about-page-desktop.webp) / [mobile](assets/images/about-page-phone.webp) / [tablet](assets/images/about-page-ipad.webp).
+* About Page Wireframes - [desktop](assets/images/about-page-desktop.webp) / [mobile](assets/images/about-page-mobile.webp) / [tablet](assets/images/about-page-ipad.webp).
 * Contact Page Wireframes - [desktop](assets/images/contact-page-desktop.webp) / [mobile](assets/images/contact-page-phone.webp) / [tablet](assets/images/contact-page-ipad.webp).
 
 ## Surface

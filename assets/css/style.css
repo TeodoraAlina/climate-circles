@@ -597,19 +597,26 @@ footer p {
     
     .contact-form {
         width: 60%;
-    }
-    
+    }  
 }
 
 @media screen and (max-width:1550px) {
     .wks-title {
         margin-bottom: 150px;
     }
+
+    #background-image {
+        padding: 200px 0;
+    }
 }
 
 @media screen and (max-width:1250px) {
     .skills {
         flex-direction: column;
+    }
+    
+    #background-image {
+        padding: 80px 0px;
     }
     
     #about-workshops .button {
@@ -619,10 +626,6 @@ footer p {
 }
 
 @media screen and (min-width:1050px) {
-    
-    #background-image {
-        padding: 200px 0;
-    }
     
     #inner-container {
         padding: 80px;
