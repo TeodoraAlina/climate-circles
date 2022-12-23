@@ -606,7 +606,7 @@ footer p {
     }
 
     #background-image {
-        padding: 200px 0;
+        padding: 100px 0;
     }
 }
 
@@ -647,6 +647,7 @@ footer p {
     
     #inner-container {
         width: 100%;
+        
     }
     
     .wks-title {
