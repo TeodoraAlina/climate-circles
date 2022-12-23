@@ -69,30 +69,16 @@ Based on the content required in the scope, this website will consist of 3 pages
 ### Imagery
 
 The images from the workshops in the About Page were given by Alexandra from her workshops, as was the photo from "Meet Alexandra" on the Home Page.
-I chose the Hero image from the Home page because of the simple feeling that it sends you when you look at it, giving you a peaceful vibe when entering the website. The images from the "Meet-up Times" section were chosen to match the vibes of the workshops. I chose a tree stem for the background of the Contact Form to provide a nice contrast and to keep the nature theme consistent throughout the website. 
-
-Image Links:
-
-*
-*
-*
-*
-*
-*
-*
-*
-*
-*
+The Hero image from the Home page was chosen because of the simple feeling that it sends you when you look at it, giving you a peaceful vibe when entering the website. The images from the "Meet-up Times" section were chosen to match the vibes of the workshops. A tree stem for the background of the Contact Form was chosen to provide a nice contrast and to keep the nature theme consistent throughout the website. 
 
 ### Colour
-
-I have used three types of green on the entire website, which goes perfect with the theme of the website. I kept the background color white for contrast and also used white in writing on images for the same reason.
+Three types of green were used on the entire website, which goes perfectly with the theme of the website. The background color white has been kept for contrast, and white has also been used in writing on images for the same reason.
 
 ### Typography
 
-For my fonts, I used https://fonts.google.com/. I have chosen to use Oswald for headers. Initially, I chose Quicksand for the content, but because the contrast was not sufficient, I changed to Montserrat, which is a similar font but has better contrast and readability. I have increased the letter spacing to make the text more defined and decreased it on smaller screens for responsiveness.
+For fonts, https://fonts.google.com/ has been used. "The Oswald" font has been chosen for headers. Initially, "Quicksand" has been chosen for the content, but because the contrast was not sufficient, it has been changed to Montserrat, which is a similar font but has better contrast and readability. 
 
-I imported the following code into the top of my style.css file:
+The following code has been imported into the top of the style.css file:
 ```
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald&display=swap'); 
 ```
@@ -174,11 +160,14 @@ Consists of:
 ***
 
 ## Testing
-* I tested whether the logo returns the user to the main page.
-* I have tested to see if the navigation bar works and the user is sent to the correct page of the site.
-* I have tested the buttons on the "About" page to see if they redirect the user to each section.
-* I have tested that the "Submit" button works.
-* I verified that the social media icons function properly. 
+* Tested whether the logo returns the user to the main page.
+* Tested to see if the navigation bar works and the user is sent to the correct page of the site.
+* Tested the buttons on the "About" page to see if they redirect the user to each section.
+* Tested that the "Submit" button works.
+* Attempting to submit the form without required fields results in a browser error message.
+* Attempting to submit the form with an email that doesn't contain the appropriate tokens results in a browser error message.
+* Submitting the form with all the correct information provided, sends the user to the Code Institute form dump, which displays data from all the fields.
+* Clicking on the social media links in the footer results in the browser navigating to the appropriate social media site homepage (currently a placeholder for the real social media pages) in a new browser tab.
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate all pages of the project to ensure there were no syntax errors in there.
 
@@ -240,12 +229,6 @@ The user can easily observe that this is what the workshops are offering. In the
 ***
 
 ## Deployment
-### Adding and commiting files
-I’ve been using Gitpod to write my code and using the terminal within to add, commit and push code from my workspace to GitHub where it is stored remotely as shown in the course content.
-
-* When I have made a couple of minor additions / changes or one large change or addition I add the file in question to the staging area by typing in the terminal git add . the full stop will add all new files.
-* I now want to save my changes to the local repository by typing git commit –m “ ” into the terminal. Between the “ ” I'll write a concise message detailing what this commit has done.
-* When I either want to upload all my changes for the day or view on GitHub Pages I push all the commits I’ve previously done to GitHub using the git push command. When GitHub Pages is set up for the repository in question it will automatically pick up these changes and display the most up to date version that has been pushed.
 
 ### Delpoying to GitHub Pages
 
@@ -259,6 +242,16 @@ The project was deployed with the following steps
 * If the page will not load go down to "template" under the "source" and select a template.
 * Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
 
+### Forking
+
+Forking the GitHub Repository
+
+By forking the GitHub Repository, you can make a copy of the original repository in your own GitHub account. This means we can view or make changes without making the changes affecting the original.
+
+* Log into GitHub and locate the GitHub Repository;
+* At the top of the Repository there is a "Fork" button about the "Settings" button on the menu;
+* You should now have a new copy of the original repository in your own GitHub account.
+
 ### Cloning
  
  Taken from GitHub's documentation on cloning, which can be found [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) :
@@ -270,6 +263,14 @@ The project was deployed with the following steps
 * Navigate to the working directory of where you want the cloned directory to be.
 * Type ```git clone``` in the terminal and then paste the link that you selected in step 3. Press enter.
 * The clone is created in your current working directory (```cwd```).
+
+### Adding and commiting files
+
+I’ve been using Gitpod to write my code and using the terminal within to add, commit and push code from my workspace to GitHub where it is stored remotely as shown in the course content.
+
+* When I have made a couple of minor additions / changes or one large change or addition I add the file in question to the staging area by typing in the terminal git add . the full stop will add all new files.
+* I now want to save my changes to the local repository by typing git commit –m “ ” into the terminal. Between the “ ” I'll write a concise message detailing what this commit has done.
+* When I either want to upload all my changes for the day or view on GitHub Pages I push all the commits I’ve previously done to GitHub using the git push command. When GitHub Pages is set up for the repository in question it will automatically pick up these changes and display the most up to date version that has been pushed.
 ***
 ## Acknowledgements
 ### Credit
